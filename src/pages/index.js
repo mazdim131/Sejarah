@@ -1037,13 +1037,13 @@ Bagian penting dari sistem KRL Jabodetabek
     
   </div>
 </div>
-
     `;
 }
 
 const card = (data) =>
-  data.map(
-    (item) => `
+  data
+    .map(
+      (item) => `
     <div class="col mb-4i">
         <div class="card">
             <div class="card-body bg-dark p-0 d-flex align-items-center rounded-3" style="padding-right: 20px !important;" onclick="${item.interaction || ""}">
