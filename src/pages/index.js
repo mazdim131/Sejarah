@@ -632,7 +632,7 @@ function overloopKelder() {
   </div>
 </div>
      
-     <a href="https://www.harapanrakyatk.com/2025/10/menilik-sejarah-overloop-kelder-obelisk-bogor/" target="_blank" class="tombol-info">Sumber informasi</a>
+     <a href="https://www.harapanrakyat.com/2025/10/menilik-sejarah-overloop-kelder-obelisk-bogor/" target="_blank" class="tombol-info">Sumber informasi</a>
 
   </div>
 </div>
@@ -899,7 +899,7 @@ Tidak terlalu terkenal secara nasional, tetapi penting secara budaya
   </div>
 </div>
     
-  <p class="mt-5">Sumber informasi <a href="https://rri.co.id/bogor/wisata/675922/mbah-dalem-sosok-legendaris-dan-makamnya-yang-penuh-misteri" target="_blank">Lihat disini</a></p>
+  <a href="https://rri.co.id/bogor/wisata/675922/mbah-dalem-sosok-legendaris-dan-makamnya-yang-penuh-misteri" target="_blank" class="tombol-info">Sumber informasi</a>
 
   </div>
 </div>
@@ -1052,7 +1052,7 @@ Bagian penting dari sistem KRL Jabodetabek
   </div>
 </div>
     
-  <p class="mt-5">Sumber informasi <a href="https://id.wikipedia.org/wiki/Stasiun_Bogor" target="_blank">Lihat disini</a></p>
+  <a href="https://id.wikipedia.org/wiki/Stasiun_Bogor" target="_blank" class="tombol-info">Sumber informasi</a>
 
   </div>
 </div>
