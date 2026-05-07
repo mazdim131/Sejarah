@@ -23,49 +23,49 @@ if (valueSearch == "tentang") {
 const tempatWisata = [
   {
     name: "Kebun Raya Bogor",
-    img: "kebunRaya.jpeg",
+    img: "/src/assets/images/kebunRaya.jpeg",
     sub: "Jejak Konservasi Bogor",
     interaction: "kebunRayaBogor()",
   },
   {
     name: "Bunker Gumati",
-    img: "bunkerGumati.png",
+    img: "/src/assets/images/bunkerGumati.png",
     sub: "Peninggalan Belanda",
     interaction: "bunkerGumati()",
   },
   {
     name: "Batu Dakon",
-    img: "batuDakon.jpg",
+    img: "/src/assets/images/batudakon.jpg",
     sub: "Artefak Batu Kuno",
     interaction: "batuDakon()",
   },
   {
     name: "GPIB Zebaoth",
-    img: "gereja.webp",
+    img: "/src/assets/images/gereja.webp",
     sub: 'Dikenal "Gereja Ayam"',
     interaction: "gereja()",
   },
   {
     name: "Overloop Kelder",
-    img: "kelder.jpeg",
+    img: "/src/assets/images/kelder.jpeg",
     sub: "Sisa Infrastruktur Kolonial",
     interaction: "overloopKelder()",
   },
   {
     name: "Makam Pajajaran",
-    img: "makamkerajaan.webp",
+    img: "/src/assets/images/makamkerajaan.webp",
     sub: "Peninggalan Kerajaan Sunda",
     interaction: "makamPajajaran()",
   },
   {
     name: "Makam Mbah Dalem",
-    img: "makamMbahDalem.jpeg",
+    img: "/src/assets/images/makamMbahDalem.jpeg",
     sub: "Makam Legendaris",
     interaction: "makamMbahDalem()",
   },
   {
     name: "Stasiun Bogor",
-    img: "stasiunBogor.jpg",
+    img: "/src/assets/images/stasiunBogor.jpg",
     sub: "Peninggalan Transportasi",
     interaction: "stasiunBogor()",
   },
@@ -1066,7 +1066,7 @@ const card = (data) =>
     <div class="col mb-4i">
         <div class="card">
             <div class="card-body p-0 d-flex align-items-center rounded-3" style="padding-right: 20px !important;" onclick="${item.interaction || ""}">
-                <img src="/src/assets/images/${item.img}" alt="${item.name}" style=" width: 100px; height: 100px; object-fit: cover;">
+                <img src="${item.img}" alt="${item.name}" style=" width: 100px; height: 100px; object-fit: cover;">
                 <span><h4 class="mt-1 ms-5 text-white">${item.name}</h4> <p class="text-white ms-5">${item.sub}</p></span>
                 <i class="bi bi-list text-white ms-auto" style="font-size: 20px;"></i>
             </div>
